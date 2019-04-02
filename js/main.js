@@ -5,7 +5,7 @@ $(document).ready(function(e){
                       <div class="image"><img src="{{iu}}" /></div>
                       {{/loading}}
                       {{#loading}}
-                      <div style="height: 480px;width:640px;" class="image"><div class="picture"></div></div>
+                      <div class="image"><div style="width: 400px; height: 400px;" class="picture"></div></div>
                       {{/loading}}
                       </div>
                       `;
@@ -39,10 +39,10 @@ $(document).ready(function(e){
 
   getPhotos(function(photos){
     photos.forEach(function(photoObj, index){
-      renderImage(photoObj.urls.regular, index, true);
+      renderImage(photoObj.urls.small, index, true);
     });
     photos.forEach(function(photoObj, index){
-      renderUpdateImage(photoObj.urls.regular, index);
+      renderUpdateImage(photoObj.urls.small, index);
     });
   });
 

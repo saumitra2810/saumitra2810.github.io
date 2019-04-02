@@ -379,10 +379,10 @@ nav a:hover {
 .loading:before {
     position: absolute;
     content: '';
-    top: 20px;
-    height: 430px;
-    left: 20px;
-    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
     background: #eee;
     z-index: 1
 }
@@ -390,10 +390,10 @@ nav a:hover {
 .loading:after {
     position: absolute;
     content: '';
-    top: 20px;
-    height: 450px;
+    top: 0px;
+    height: 100%;
     left: -80px;
-    width: 640px;
+    width: 100%;
     background: -webkit-gradient(linear, left top, right top, color-stop(46%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0.35)), color-stop(54%, rgba(255,255,255,0))) 50% 50%;
     background: linear-gradient(to right, rgba(255,255,255,0) 46%, rgba(255,255,255,0.35) 50%, rgba(255,255,255,0) 54%) 50% 50%;
     z-index: 1;
@@ -425,18 +425,54 @@ nav a:hover {
     }
 }
 
-#image-listing-container img {
-  width: 100%;
+#image-listing-container .image-listing {
+  position: relative;
 }
 
 #image-listing-container {
-  display: flex;
-  flex-wrap: wrap;
+  margin-top: 20px;
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
 }
 
-#image-listing-container .image-listing {
-  padding: 20px;
-  height: 480px;
-  width: auto;
-  position: relative;
+#image-listing-container img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #image-listing-container {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #image-listing-container {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #image-listing-container {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #image-listing-container {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
 }
