@@ -35,11 +35,13 @@ $(document).ready(function(e){
   }
 
   function getPhotos(callback){
-    var photos = [];
-    for (var i = 0; i < 30; i++) {
-      photos.push("https://source.unsplash.com/random/400x300?q=" + i);
-    }
-    callback(photos);
+    $.get( "images.json", function( data ) {
+      callback(data);
+    });
+    // var photos = [];
+    // for (var i = 0; i < 30; i++) {
+    //   photos.push("https://source.unsplash.com/random/400x300?q=" + i);
+    // }
   }
 
   getPhotos(function(photos){
