@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pospwa/static/css/main.cff28c55.chunk.css",
+    "main.css": "/pospwa/static/css/main.72d59f90.chunk.css",
     "main.js": "/pospwa/static/js/main.33e50974.chunk.js",
     "main.js.map": "/pospwa/static/js/main.33e50974.chunk.js.map",
     "runtime~main.js": "/pospwa/static/js/runtime~main.d43ceba6.js",
@@ -9,9 +9,9 @@
     "static/js/2.b87d3a07.chunk.js": "/pospwa/static/js/2.b87d3a07.chunk.js",
     "static/js/2.b87d3a07.chunk.js.map": "/pospwa/static/js/2.b87d3a07.chunk.js.map",
     "index.html": "/pospwa/index.html",
-    "precache-manifest.e351bf7af995308c806b371a2f6b4633.js": "/pospwa/precache-manifest.e351bf7af995308c806b371a2f6b4633.js",
+    "precache-manifest.242e52d250c120819114b4a5afc8b838.js": "/pospwa/precache-manifest.242e52d250c120819114b4a5afc8b838.js",
     "service-worker.js": "/pospwa/service-worker.js",
     "static/css/2.1ec47a92.chunk.css.map": "/pospwa/static/css/2.1ec47a92.chunk.css.map",
-    "static/css/main.cff28c55.chunk.css.map": "/pospwa/static/css/main.cff28c55.chunk.css.map"
+    "static/css/main.72d59f90.chunk.css.map": "/pospwa/static/css/main.72d59f90.chunk.css.map"
   }
 }
