@@ -46,11 +46,11 @@ $(document).ready(function(e){
 
   getPhotos(function(photos){
     photos.forEach(function(photoUrl, index){
-      renderImage(photoUrl, index, true);
+      renderImage(photoUrl, index, false);
     });
-    photos.forEach(function(photoUrl, index){
-      renderUpdateImage(photoUrl, index);
-    });
+    // photos.forEach(function(photoUrl, index){
+    //   renderUpdateImage(photoUrl, index);
+    // });
   });
 
   function queueImageLoad(iu, index, imageElement) {

@@ -437,3 +437,9 @@ nav a:hover {
   position: relative;
   margin: 20px;
 }
+
+.swym-title {
+  text-align: center;
+  margin: 20px;
+  line-height: 2.5rem;
+}
