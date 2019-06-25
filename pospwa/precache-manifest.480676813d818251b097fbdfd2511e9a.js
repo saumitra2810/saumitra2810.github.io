@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02f204d471937206b6d75ecfcffa14b5",
+    "revision": "a1a54e9c566b35d3115ed2bffe4411a2",
     "url": "/pospwa/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pospwa/static/css/2.1ec47a92.chunk.css"
   },
   {
-    "revision": "ae0bde3b62c25e7280bd",
+    "revision": "e7965bb9e868c32c013b",
     "url": "/pospwa/static/css/main.b8bcffc1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pospwa/static/js/2.5bc69a0d.chunk.js"
   },
   {
-    "revision": "ae0bde3b62c25e7280bd",
-    "url": "/pospwa/static/js/main.b88f30e8.chunk.js"
+    "revision": "e7965bb9e868c32c013b",
+    "url": "/pospwa/static/js/main.b7d3442c.chunk.js"
   },
   {
     "revision": "d1fd3a1a560a2e1a266d",
